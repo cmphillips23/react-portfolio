@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #DBE3D8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  min-height: 10vw;
+}
+
+header a {
+  text-decoration: none;
+  color: #DBE3D8;
+}
+
+header span {
+  color: #DBE3D8;
+}
+
+section a {
+  color: #457B9D;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 3vw;
+}
+
+p {
+  font-size: x-large;
+}
+
+section {
+  margin: auto 5vw;
+  color: #1D3557;
+}
+
+.navActive {
+  color: #E63946;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1D3557;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container h3 {
+  margin: 2vw 3vw;
+}
+
+.portfolio-section {
+  min-width: 75%;
+  min-height: 75%;
+  justify-content: space-between;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolio-container div {
+  text-align: center;
+  margin: 3vw 0;
+}
+
+.portfolio-container div a {
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.run-buddy {
+  background-image: url(./images/run-buddy.PNG);
+  background-size: cover;
+  width: 40%;
+  height: 25vw;
+}
+
+.password {
+  background-image: url(./images/password-generator.PNG);
+  background-size: cover;
+  width: 40%;
+  height: 25vw;
+}
+
+.safe-flight {
+  background-image: url(./images/safe-flight.PNG);
+  background-size: cover;
+  width: 40%;
+  height: 25vw;
+}
+
+.recess {
+  background-image: url(./images/recess.PNG);
+  background-size: cover;
+  width: 40%;
+  height: 25vw;
+}
