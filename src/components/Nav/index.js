@@ -11,7 +11,7 @@ function Nav(props) {
     return (
         <header className="container">
             <h1>
-                <a href="/">Connor Phillips</a>
+                <a href="/react-portfolio">Connor Phillips</a>
             </h1>
             <nav>
                 {categories.map((category) => (
