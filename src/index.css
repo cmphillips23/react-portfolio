@@ -31,6 +31,10 @@ section a {
   text-decoration: none;
 }
 
+h1 {
+  color: #DBE3D8;
+}
+
 main {
   margin-top: 3vw;
 }
@@ -52,7 +56,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #1D3557;
+  background-image: url(./images/banner-2.png);
+  background-size: cover;
 }
 
 .container nav {
@@ -121,4 +126,10 @@ section {
   background-size: cover;
   width: 40%;
   height: 25vw;
+}
+
+.portrait {
+  background-image: url(./images/portrait.webp);
+  background-size: cover;
+  size: 60%;
 }
