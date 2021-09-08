@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #DBE3D8;
+  background-color: #d7ddff;
 }
 
 code {
@@ -14,25 +14,25 @@ code {
 }
 
 header {
-  min-height: 10vw;
+  min-height: 15vw;
 }
 
 header a {
   text-decoration: none;
-  color: #DBE3D8;
+  color: whitesmoke;
 }
 
 header span {
-  color: #DBE3D8;
+  color: whitesmoke;
 }
 
 section a {
-  color: #457B9D;
+  color: rgb(117, 0, 117);
   text-decoration: none;
 }
 
 h1 {
-  color: #DBE3D8;
+  color: whitesmoke;
 }
 
 main {
@@ -44,8 +44,12 @@ p {
 }
 
 section {
-  margin: auto 5vw;
-  color: #1D3557;
+  margin: auto 25%;
+  color: black;
+}
+
+.about {
+  display: flex;
 }
 
 .navActive {
@@ -56,8 +60,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image: url(./images/banner-2.png);
-  background-size: cover;
+  background-image: url(./images/blue-banner.jpg);
+  background-size: 100% 100%;
 }
 
 .container nav {
@@ -67,6 +71,16 @@ section {
 
 .container h3 {
   margin: 2vw 3vw;
+}
+
+.contact-form h1 {
+  color: black;
+}
+
+#contact-form div {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
 }
 
 .portfolio-section {
@@ -112,6 +126,14 @@ section {
   background-size: cover;
   width: 40%;
   height: 25vw;
+}
+
+.resume {
+  display: flex;
+  background-image: url(./images/resume.PNG);
+  background-size: cover;
+  width: 40%;
+  height: 60%;
 }
 
 .recess {
