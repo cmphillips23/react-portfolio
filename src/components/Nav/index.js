@@ -1,13 +1,13 @@
 import React from 'react';
 
 function Nav(props) {
-    const categories = ['About', 'Contact', 'Portfolio', 'Resume'];
+    const categories = ['About', 'Contact', 'Projects', 'Resume'];
 
     return (
         <header className="container">
-            <h1>
+            <p>
                 Connor Phillips
-            </h1>
+            </p>
             <nav>
                 {categories.map((category) => (
                     <li key={category}>

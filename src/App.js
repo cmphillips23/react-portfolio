@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Landing from './components/Landing';
 
@@ -17,8 +17,8 @@ function App() {
         return <About />;
       case 'Contact':
         return <Contact />;
-      case 'Portfolio':
-        return <Portfolio />;
+      case 'Projects':
+        return <Projects />;
       case 'Resume':
         return <Resume />;
       default:
