@@ -120,24 +120,10 @@ section {
   margin: 4vw 0;
 }
 
-.resume {
-  display: flex;
-  background-image: url(./images/resume.PNG);
-  background-size: cover;
-  width: 40%;
-  height: 60%;
-}
-
 .recess {
   margin: 4vw 0;
 }
 
 .stock-talk {
   margin: 4vw 0;
-}
-
-.portrait {
-  background-image: url(./images/portrait.webp);
-  background-size: cover;
-  size: 60%;
 }
