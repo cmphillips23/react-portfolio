@@ -55,9 +55,15 @@ function ContactForm() {
             )}
             <button type="submit">Submit</button>
           </form>
+            <br /><br />
+            Also reach out to me via email or phone, and check out my github: <br /><br />
+
+            Email -  <a href="@mailto:cmphillips23@gmail.com">cmphillips23@gmail.com</a><br />
+            Github - <a href="https://github.com/cmphillips23">github.com/cmphillips23</a><br />
+            Phone - <a href="tel:214-549-1656">214-549-1656</a>
         </section>
     )
-
+    
     }
     
     export default ContactForm;
